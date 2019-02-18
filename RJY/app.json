@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/time/time"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4CD1C9",
+    "navigationBarTitleText": "寻找十二",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#99FFFF",
+    "borderStyle": "black",
+    "backgroundColor": "#4CD1C9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index_check.png",
+        "text": "画廊"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user_check.png",
+        "text": "小祖宗"
+      },
+      {
+        "pagePath": "pages/time/time",
+        "iconPath": "image/app.png",
+        "selectedIconPath": "image/app_check.png",
+        "text": "时光"
+      }
+    ]
+  },
+  "requiredBackgroundModes": ["audio"]
+}

@@ -1,0 +1,96 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.userName{
+  width: 70%;
+  text-align: right;
+  color: #C0C0C0;
+}
+.view_one{
+  background-color: red;
+}
+.view_two{
+background-color: green;
+}
+.view_three{
+  background-color: yellow;
+}
+.btn_sty{
+  height: 32rpx;
+  width: 32rpx;
+}
+.tt{
+   padding: 0rpx;
+   text-align:center;
+  display: table-cell;
+  vertical-align:middle
+}
+.father{
+  display:inline;
+}
+.inline_left{ 
+  margin-left: 30rpx;
+  display:inline;
+  float:left;
+}
+.inline_rigth{
+  margin-right: 30rpx;
+  display:inline;
+  float:right;
+}
+.img_str{
+  display: flex;                                   
+  align-items: center;
+}
+.children{
+  background-color: #FFFFFF;
+  width: 50%;
+  height: 480rpx;
+  border-radius: 10px;
+  margin: 10rpx;
+  display: inline-block;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+.img_size{
+  width: 100%;
+  height: 360rpx;
+}
+.div_text_date{
+  text-align:right;
+  font-size:25rpx;
+  margin:10rpx;
+}
+.div_img{
+  float: right; 
+  position: absolute;
+  left:315rpx;
+  top:5rpx;
+}
+.div_text{
+  font-size:30rpx;
+  color:#666666;
+  text-align:center;
+}                                        

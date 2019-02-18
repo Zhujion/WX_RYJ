@@ -1,0 +1,3 @@
+<view class='imagesize'>
+<image src='{{imageSrc}}' class='in-image'></image>
+</view>

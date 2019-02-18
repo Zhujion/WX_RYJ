@@ -1,0 +1,48 @@
+<view class='flex-row' style='display:flex;flex-direction:column;'>
+<view class="flex-view-item" style='text-align:center;'>
+    <view class='inline_left'>
+      <button size='mini' 
+      plain 
+      style='padding:0;border:none;text-align:center;font-size:30rpx;'
+      open-type='share'><image src='../../image/btn/add_mini.png' class='btn_sty'></image>创建       </button>
+    </view>
+    <view class='father'>
+      <text style='font-size:25rpx;'>本人</text>
+    </view>
+    <view class='inline_rigth'>
+      <button size='mini' style='padding:0;border:none;text-align:center;font-size:30rpx;'plain>
+      <image src='../../image/btn/switch.png' class='btn_sty'></image> 切换</button>
+    </view>
+</view>
+<scroll-view class="flex-view-item " scroll-y="true" style='height:90%;'  >
+  
+  <view class='img_str flex-wrap'>
+    <view class='children'>
+        <view style='position:relative;'>
+            <view class='div_text'><text>文字</text>
+            </view>
+            <image src='../../image/btn/upt_img.png' class='btn_sty div_img'></image>
+        </view>
+        <view>
+        <image src='../../image/RYJ/11.jpg' class="img_size" ></image>
+        </view>
+        <view class='div_text_date'>上传时间：2019-1-16</view>
+    </view>
+
+    <view class='children'>
+        <view style='position:relative;'>
+            <view class='div_text'><text>文字</text>
+            </view>
+            <image src='../../image/btn/upt_img.png' class='btn_sty div_img'></image>
+        </view>
+        <view>
+        <image src='../../image/RYJ/11.jpg' class="img_size" ></image>
+        </view>
+        <view class='div_text_date'>上传时间：2019-1-16</view>
+    </view>
+  </view>
+
+ 
+   <view class="flex-view-item" style='font-size:25rpx;text-align:center;'>已经到底啦~</view>
+</scroll-view>
+</view>
